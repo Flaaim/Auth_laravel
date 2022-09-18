@@ -12,13 +12,15 @@ class LoginController extends Controller {
 
     protected $redirectTo = 'admin/dashboard';
 
-    public function __constuct(){
+    public function __constrquct(){
         $this->middleware('guest')->except('logout');
     }
 
     public function showLoginForm(){
         return view('Pub::Auth.login');
     }
+
+
 
 
 }
