@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Modules\Admin\Dashboard\Models\Dashboard;
 
+
 class DashboardController extends Controller {
 
     /**
@@ -15,6 +16,7 @@ class DashboardController extends Controller {
      */
     public function index()
     {
+        
         return view('Admin::Dashboard.index');
     }
 

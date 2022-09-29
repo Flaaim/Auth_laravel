@@ -10,5 +10,8 @@ Route::group(['prefix'=> 'auths', 'middleware' => []], function(){
 
     Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('auths.register');
     Route::post('/register', [RegisterController::class, 'register'])->name('auths.store_register');
+
+    Route::get('/google', [LoginController::class, 'redirectToGoogle'])->name('auths.google');
+    Route::get('/google/callback', [LoginController::class, 'handleGoogleCallback'])->name('auths.googleCallback');
 });
 
