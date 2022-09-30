@@ -19,4 +19,6 @@ return [
     'register_email' => 'Адрес электронной почты',
     'register_password' => 'Пароль',
     'register_submit' => 'Зарегистрироваться',
+
+    'failed' => 'Ошибка валидации'
 ];
