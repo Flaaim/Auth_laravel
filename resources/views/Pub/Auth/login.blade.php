@@ -48,7 +48,7 @@
   <button type="submit" class="btn btn-primary btn-block mb-4">{{__('auth.login_submit')}}</button>
   <!-- Register buttons -->
   <div class="text-center">
-    <p>Not a member? <a href="#!">Register</a></p>
+    <p>Not a member? <a href="{{route('auths.register')}}">Register</a></p>
   </div>
 </form>
     </div>      

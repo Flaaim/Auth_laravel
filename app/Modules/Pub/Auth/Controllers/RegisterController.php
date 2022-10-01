@@ -11,11 +11,13 @@ class RegisterController extends Controller
 {
     
     use RegistersUsers;
+    
+    protected $redirectTo = 'admin/dashboard';
 
     public function showRegistrationForm(){
         return view('Pub::Auth.register');
     }
-
+    
 
     protected function validator(array $data)
     {
