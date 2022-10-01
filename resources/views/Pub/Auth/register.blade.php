@@ -36,9 +36,16 @@
 
             <!-- Password input -->
             <div class="form-outline mb-4">
-            <input type="text" id="form2Example1" class="form-control" name="password"/>
+            <input type="password" id="form2Example1" class="form-control" name="password"/>
             <label class="form-label" for="form2Example1">{{__('auth.register_password')}}</label>
             </div>
+        
+            <!-- Confrim Password -->
+            <div class="form-outline mb-4">
+            <input type="password" id="form2Example1" class="form-control" name="password_confirmation"/>
+            <label class="form-label" for="form2Example1">{{__('auth.register_confrim_password')}}</label>
+            </div>
+
             <button class="btn btn-primary" type="submit">{{__('auth.register_submit')}}</button>
         </form>
 

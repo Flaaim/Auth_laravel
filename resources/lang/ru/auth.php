@@ -18,6 +18,7 @@ return [
     'register_lastname' => 'Фамилия',
     'register_email' => 'Адрес электронной почты',
     'register_password' => 'Пароль',
+    'register_confrim_password' => 'Подтвердите пароль',
     'register_submit' => 'Зарегистрироваться',
 
     'failed' => 'Ошибка валидации'
